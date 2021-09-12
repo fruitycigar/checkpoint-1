@@ -78,15 +78,20 @@ button {
 	border-radius: 50px;
 	margin-top: 20px;
 }
-img {
-	 float: left;
-	 margin-left: 120px;
-	 margin-right: 10px;
- }
-.passage {
+.container-left {
+	display: inline-block;
 	height: 387px;
 	width: 584px;
+	margin-left: 100px;
+	margin-right: 10px;
+}
+.container-right {
 	display: inline-block;
-	margin-right: 120px;
+	height: 387px;
+	width: 584px;
+	margin-right: 100px;
 	margin-left: 10px;
+}
+.learn {
+	color: hsl(107deg 51% 48%);
 }
